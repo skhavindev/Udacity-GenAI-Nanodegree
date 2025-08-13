@@ -12,7 +12,7 @@ except ImportError:
     st.error("ChromaDB not available. Please install chromadb.")
     st.stop()
 
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "voc-334616391126677392082867d3c9ccd42eb5.77541555")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 client = OpenAI(
     base_url="https://openai.vocareum.com/v1",
